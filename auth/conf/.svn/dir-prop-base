@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 41
+*.exe
+*.o
+*~
+*.tmp
+*.a
+*.out
+127.0.0.1.*
+
+END

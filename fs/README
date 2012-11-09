@@ -1,0 +1,7 @@
+接口文件为fs_interface.h,使用时include该文件即可
+
+内部已实现锁，直接使用即可，无需另外考虑并发控制
+
+其中main.c为测试用，使用时去除即可，最终编译连接时仅需要/src/lib/libfs.a,所以Makefile也需要修改一下
+
+2012-1-19 17:00 by MZD
